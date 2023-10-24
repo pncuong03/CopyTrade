@@ -83,8 +83,42 @@ const Crypto = () => {
           </div>
         </div>
       </div>
-      
+
     </section>
+    // <section>
+    //   <div className=" h-auto mt-20 p-14 flex flex-col items-center justify-center gap-10 xl:flex-row xl:items-start">
+    //     <div className="flex h-[920px] flex-col justify-end items-center gap-8 bg-copyBg bg-no-repeat p-5 mx-auto " >
+    //       <h2 className="hanover text-[40px] font-bold leading-[64px] text-neutral-100 text-center">Win-Win Referral Program</h2>
+
+    //       <p className="poppins text-lg font-medium  text-neutral-100 max-w-[1033px] text-center ">Earn a 20% referral bonus on all purchases when you refer friends. Also receiving a 10% discount on any one-month
+    //         subscription plan are your referrals. Lifetime.</p>
+
+
+    //       <div>
+    //         <button className="bg-white w-[200px] h-[50px] rounded-3xl poppins text-primary-100 text-base font-semibold">
+    //           Get Started
+    //         </button>
+    //       </div>
+
+    //     </div>
+
+    //     <div className="flex h-[920px] flex-col bg-cryptoBg bg-no-repeat justify-start items-center gap-8 p-5 mx- " >
+    //       <h2 className="hanover text-[40px] font-bold leading-[64px] text-neutral-400 text-center">Win-Win Referral Program</h2>
+
+    //       <p className="poppins text-lg font-medium  text-neutral-400 max-w-[1033px] text-center">Earn a 20% referral bonus on all purchases when you refer friends. Also receiving a 10% discount on any one-month
+    //         subscription plan are your referrals. Lifetime.</p>
+
+
+    //       <div>
+    //         <button className="bg-white w-[200px] h-[50px] rounded-3xl poppins text-primary-100 text-base font-semibold">
+    //           Get Started
+    //         </button>
+    //       </div>
+
+    //     </div>
+    //   </div>
+    // </section>
+
   );
 };
 

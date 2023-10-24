@@ -8,7 +8,7 @@ import Arbi from "../../Icon/ArbitrageIcon";
 
 export const Features = () => {
   return (
-    <section className="max-w-[1920px] p-10 poppins">
+    <section className="max-w-[1920px] p-8 mt-20">
       <div className="flex flex-col items-center text-center gap-4 ">
         <h2 className="hanover text-[40px] font-bold leading-[64px]">
           Features
@@ -22,8 +22,8 @@ export const Features = () => {
 
       <div className="xl:grid items-center grid-cols-2 border rounded-3xl mt-10 ">
         <div className="flex">
-          <div className="md:flex item-center gap-5 p-10">
-            <div className="w-[70%] ">
+          <div className="flex flex-col md:flex-row item-center xl:text-start text-center gap-5 p-10">
+            <div className="w-auto ">
               <h2 className="hanover text-[32px] font-bold leading-[48px] ">
                 Smart Trading
               </h2>
@@ -33,18 +33,18 @@ export const Features = () => {
                 cryptocurrency trading accounts at once.
               </p>
 
-              <div className="text-lg font-semibold text-primary-100 mt-10">
+              <div className="poppins text-lg font-semibold text-primary-100 mt-10">
                 Learn more
               </div>
             </div>
-            <div className="mt-10">
+            <div className="mt-10 mx-auto">
               <DCAIcon/>
             </div>
           </div>
         </div>
-        <div className="flex-1 bg-[#F2F4FB]">
-          <div className="md:flex items-center gap-5 p-14">
-            <div className="w-[70%]">
+        <div className="flex-1 bg-[#F2F4FB] xl:rounded-tr-3xl ">
+          <div className="flex flex-col md:flex-row item-center xl:text-start text-center gap-5 p-11 ">
+            <div className="w-auto">
               <h2 className="hanover text-[32px] font-bold leading-[48px] ">
                 Pairs Trading
               </h2>
@@ -54,18 +54,18 @@ export const Features = () => {
                 exchange.
               </p>
 
-              <div className="text-lg font-semibold text-primary-100 mt-4">
+              <div className="poppins text-lg font-semibold text-primary-100 mt-10">
                 Learn more
               </div>
             </div>
-            <div>
+            <div className="mt-10 mx-auto">
               <PariIcon/>
             </div>
           </div>
         </div>
-        <div className="flex-1 bg-[#F2F4FB]">
-          <div className="md:flex items-center gap-5 p-14">
-            <div className="w-[70%]">
+        <div className="flex-1 bg-[#F2F4FB] ">
+          <div className="flex flex-col md:flex-row item-center xl:text-start text-center gap-5 p-10">
+            <div className="w-auto">
               <h2 className="hanover text-[32px] font-bold leading-[48px] ">
                 DCA bot
               </h2>
@@ -79,15 +79,15 @@ export const Features = () => {
                 Learn more
               </div>
             </div>
-            <div>
+            <div className="mt-10 mx-auto">
               <SmartIcon />
             </div>
           </div>
         </div>
 
-        <div className="flex-1">
-          <div className="md:flex items-center gap-5 p-14">
-            <div className="w-[70%]">
+        <div className="flex-1 ">
+          <div className="flex flex-col md:flex-row item-center xl:text-start text-center gap-5 p-10">
+            <div className="w-auto">
               <h2 className="hanover text-[32px] font-bold leading-[48px] ">
                 Crypto Portfolio Tracker
               </h2>
@@ -101,15 +101,15 @@ export const Features = () => {
                 Learn more
               </div>
             </div>
-            <div>
+            <div className="mt-10 mx-auto">
               <CryptoIcon/>
             </div>
           </div>
         </div>
 
-        <div className="flex-1   xl:rounded-br-3xl p-10">
-          <div className="md:flex items-center gap-5 ]">
-            <div className="w-[70%]">
+        <div className="flex-1   xl:rounded-br-3xl ">
+          <div className="flex flex-col md:flex-row item-center xl:text-start text-center gap-5 p-10">
+            <div className="w-auto">
               <h2 className="hanover text-[32px] font-bold leading-[48px] ">
                 Multiple Account Management
               </h2>
@@ -123,14 +123,14 @@ export const Features = () => {
                 Learn more
               </div>
             </div>
-            <div>
+            <div className="mt-10 mx-auto">
               <MultipleIcon/>
             </div>
           </div>
         </div>
-        <div className="flex-1 bg-[#F2F4FB]  xl:rounded-br-3xl p-10">
-          <div className="md:flex items-center gap-5 ]">
-            <div className="w-[70%]">
+        <div className="flex-1 bg-[#F2F4FB]  xl:rounded-br-3xl ">
+          <div className="flex flex-col md:flex-row item-center xl:text-start text-center gap-5 p-11">
+            <div className="w-auto">
               <h2 className="hanover text-[32px] font-bold leading-[48px] ">
                 Arbitrage Trading
               </h2>
@@ -144,7 +144,7 @@ export const Features = () => {
                 Learn more
               </div>
             </div>
-            <div>
+            <div className="mt-10 mx-auto">
               <Arbi/>
             </div>
           </div>

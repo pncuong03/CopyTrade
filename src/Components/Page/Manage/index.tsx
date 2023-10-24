@@ -11,7 +11,7 @@ import BingX from "../../Icon/BingX";
 const Manage = () => {
   return (
     <section>
-      <div className="h-auto bg-[#456BF1] mt-9 p-10 flex flex-col rounded-xl items-center justify-center gap-10 xl:flex-row xl:items-start">
+      <div className="h-auto bg-[#456BF1]  mt-20 p-10 flex flex-col rounded-xl items-center justify-center gap-10 xl:flex-row xl:items-start">
         <div className="w-1/3 flex justify-center">
           <Traders />
         </div>

@@ -2,8 +2,8 @@ import React from "react";
 
 const Start = () => {
   return (
-    <section className="mt-[100px]">
-      <div className="bg-getBg bg-no-repeat bg-center w-[100%]  h-[388px] flex flex-col items-center justify-center gap-5 p-5">
+    <section className="mt-20">
+      <div className="bg-getBg bg-no-repeat w-[100%]  h-[388px] flex flex-col  text-center justify-center gap-5 p-5">
         <div className="hanover text-3xl text-white">
           Start 7-day trial on a PRO plan
         </div>

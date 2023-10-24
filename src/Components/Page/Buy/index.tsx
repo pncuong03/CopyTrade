@@ -2,8 +2,8 @@ import React from "react";
 
 export const Buy = () => {
   return (
-    <section className="max-w-[1920px] h-auto mt-9 p-14 flex flex-col items-center justify-center gap-10 xl:flex-row xl:items-start ">
-      <div className="max-w-[1000px] h-auto rounded-[40px] bg-bgvisa bg-cover bg-no-repeat p-2  sm:px-10 sm:p-14 py-10">
+    <section className="max-w-[1920px] h-auto mt-20 p-14 flex flex-col items-center justify-center gap-10 xl:flex-row xl:items-start ">
+      <div className="max-w-[1000px] h-auto rounded-[40px] bg-bgvisa bg-cover bg-no-repeat px-2  sm:p-14 py-10">
         <div className="flex flex-col text-center gap-8 ">
           <div className="flex justify-center">
             <img src="./visa.svg" alt="" className="w-60 " />
@@ -29,7 +29,7 @@ export const Buy = () => {
             Bitcoin (BTC) address
           </div>
 
-          <p className="poppins text-lg font-medium text-start mt-2 text-[#F1F1F1]">
+          <p className="poppins text-lg font-medium text-start -mt-3 text-[#F1F1F1]">
             BTC address must be your and under your full control.
           </p>
 
@@ -41,8 +41,8 @@ export const Buy = () => {
         </div>
       </div>
 
-      <div className=" flex flex-col gap-5 font-bold  py-44 ">
-        <h2 className="hanover text-[40px]   leading-[64px] ">
+      <div className=" flex flex-col gap-5 font-bold xl:text-end text-center py-44 ">
+        <h2 className="hanover text-[40px] leading-[64px] ">
           Buy crypto instantly
         </h2>
         <p className="poppins  font-medium leading-[28px] text-[#8E8F98]">

@@ -43,7 +43,7 @@ export const Header = () => {
           </button>
         </div>
         <a
-          className="hidden lg:inline-block py-3 px-9 rounded-3xl bg-primary-100 hover:bg-[#456BF1] text-base text-white font-semibold transition duration-200"
+          className="hidden lg:inline-block py-3 px-9 rounded-3xl bg-[#456BF1] text-base text-white font-semibold transition duration-200"
           href="#"
         >
           Get started

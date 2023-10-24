@@ -3,7 +3,7 @@ import { PartnerIcon } from "../../Icon/PartnerIcon";
 
 export const Partner = () => {
     return(
-        <section className="py-20">
+        <section className="mt-20">
             <PartnerIcon />
 
         </section>
