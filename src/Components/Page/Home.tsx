@@ -1,53 +1,32 @@
 import React from "react";
-import Bots from "../Icon/Bots";
-import Volume from "../Icon/Volume";
-import Traders from "../Icon/Traders";
-import Binace from "../Icon/Binace";
-import Huobi from "../Icon/Huobi";
-import Gate from "../Icon/Gate.";
-import OKX from "../Icon/OKX";
-import MEXC from "../Icon/MEXC";
-import BingX from "../Icon/BingX";
+import Trustpilot from "../Icon/Trustpilot";
+
 const Home = () => {
   return (
-    <section className="max-w-[1920px]">
-      <div className="h-auto bg-[#456BF1] mt-9 p-10 flex flex-col items-center justify-center gap-10 xl:flex-row xl:items-start">
-        <div className="w-1/3 flex justify-center">
-          <Traders />
-        </div>
-        <div className="w-1/3 flex justify-center">
-          <Bots />
-        </div>
-        <div className="w-1/3 flex justify-center">
-          <Volume />
-        </div>
-      </div>
-
-      <div className="h-auto mt-[100px] p-10 flex flex-col gap-10 items-center justify-center xl:flex-row xl:items-start">
-        <div className="w-1/2 flex flex-col gap-5 items-center justify-center">
-          <p className="hanover text-3xl ">
-            Manage all crypto exchange accounts from one place
-          </p>
-          <p className="poppins text-lg">
-            Trade all accounts simultaneously (applies to any single exchange
-            per trade)
-          </p>
-        </div>
-        <div className="w-1/2 flex flex-col items-center justify-center gap-10 xl:flex-row xl:items-start ">
-          <div className="flex flex-col w-1/2 items-center justify-center gap-14">
-            <Binace />
-            <Huobi />
-            <Gate />
+    <section className="">
+      <div className="relative">
+        <div className="bg-homeBg flex flex-col bg-no-repeat bg-center w-full h-[600px] mt-9 relative rounded-3xl p-10">
+          <div className="flex flex-col max-w-[790px] gap-5 p-8">
+            <div className="hanover text-4xl text-white max-w-[700px] font-bold">
+              Automate any crypto strategy
+            </div>
+            <div className="poppins text-[#8E8F98] max-w-[709px] text-[18px]">
+              Develop a fully automated crypto trading bot, copy trade the
+              greatest crypto traders with a proven track record or trade
+              yourself using the user-friendly advance terminal.
+            </div>
+            <div className="pt-2">
+              <button className="bg-blue-500 w-[200px] h-[50px] rounded-3xl poppins text-white">
+                Get started
+              </button>
+            </div>
           </div>
-          <div className="w-1/2 flex flex-col items-center justify-center gap-16">
-            <OKX />
-            <MEXC />
-            <BingX />
+          <div className="lg:absolute bottom-0 rounded-3xl lg:max-w-[558px] flex justify-between items-center p-8  max-w-none w-full h-[90px] bg-[#141532]">
+            <Trustpilot />
+            <div className="max-w-[173px] text-white poppins font-bold text-right">Excellent 4.8 out of 5.0 TrustPilot</div>
           </div>
         </div>
       </div>
-
-      <div></div>
     </section>
   );
 };

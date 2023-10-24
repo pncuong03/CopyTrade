@@ -57,3 +57,13 @@
 .poppins {
   font-family: "Poppins", Fallback, sans-serif;
 }
+@font-face {
+  font-family: "Lato"; 
+  src: local("AirbnbCerealLight"),
+    url("../public/fonts/Lato-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+.lato {
+  font-family: "Lato", Fallback, sans-serif;
+}
