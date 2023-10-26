@@ -2,7 +2,9 @@ import React from "react";
 
 const Start = () => {
   return (
-    <section className="container max-w-[1920px] mx-auto text-center py-[60px] px-4 relative z-[1] bg-getBg bg-cover bg-no-repeat  mt-20">
+    //w-full bg-[#e2f093] flex justify-center items-center transition-all md:px-12 overflow-hidden
+    //container w-full mx-auto text-center py-[60px] px-4 relative z-[1] bg-getBg
+    <section className="w-full bg-getBg flex justify-center items-center py-[60px]  transition-all md:px-12 overflow-hidden bg-no-repeat bg-cover  mt-20">
     <div className="flex flex-col justify-center items-center gap-8  " >
         <h2 className="hanover text-[40px] font-bold leading-[64px] text-neutral-100 text-center">Start 7-day trial on a PRO plan</h2>
      

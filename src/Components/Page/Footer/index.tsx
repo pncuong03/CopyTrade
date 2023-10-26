@@ -7,7 +7,7 @@ import Twitter from "../../Icon/Tweter";
 
 const Footer = () => {
   return (
-    <div className="max-w-[1980px] p-10  lato">
+    <div className="container mx-auto p-10  lato">
       <div className="h-auto  mt-9 flex flex-col items-center justify-between md:flex-row md:items-start gap-8">
         <div className="flex flex-col gap-3 md:items-start items-center">
           <div className="text-[30px] font-bold">LOGO</div>

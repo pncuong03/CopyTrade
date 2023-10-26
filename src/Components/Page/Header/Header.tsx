@@ -9,10 +9,10 @@ export const Header = () => {
   };
 
   return (
-    <section className="">
+    <section className="poppins">
       <nav className=" flex justify-between items-center bg-white container max-w-[1816px] mx-auto text-center py-[20px] px-4 relative z-[1]">
         <div className="flex">
-          <a className="text-3xl font-bold leading-none" href="#">
+          <a className="text-2xl font-bold leading-none " href="#">
             Logo
           </a>
 

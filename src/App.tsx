@@ -10,12 +10,14 @@ import { Header } from "./Components/Page/Header/Header";
 import { Features } from "./Components/Page/Features";
 import Start from "./Components/Page/Start";
 import { Buy } from "./Components/Page/Buy";
+import { Trader } from "./Components/Page/Trader";
 
 function App() {
   return (
     <div >
       <Header/>
       <Home />
+      <Trader />
       <Manage />
       <Crypto />
       <Start />
