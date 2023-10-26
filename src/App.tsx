@@ -13,16 +13,18 @@ import { Buy } from "./Components/Page/Buy";
 
 function App() {
   return (
-    <div className="max-w-[1920px] px-2 font-bold">
+    <div >
       <Header/>
       <Home />
       <Manage />
       <Crypto />
       <Start />
-      <Features />
+      <Features />   
       <Buy/>
       <Partner />
-      <Winwin />
+
+        <Winwin />
+    
       <Footer />
     </div>
   );

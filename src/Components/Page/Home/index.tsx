@@ -3,10 +3,11 @@ import Trustpilot from "../../Icon/Trustpilot";
 
 const Home = () => {
   return (
+ 
     <section className="px-10 flex flex-col justify-center items-center">
       <div
-        className="2xl:bg-homeBg bg-home_1Bg flex flex-col bg-no-repeat 2xl:bg-left-bottom
-          w-full max-w-[1816px] h-[600px] mt-9 relative rounded-3xl p-5 font-bold"
+        className="2xl:bg-homeBg bg-home_1Bg [background-position:50%_50%] flex flex-col bg-no-repeat 2xl:bg-left-bottom
+         w-full max-w-[1816px] h-[600px] mt-9 relative rounded-3xl p-5 font-bold"
       >
         <div className="flex flex-col max-w-[790px] gap-3 p-8">
           <div className="hanover text-4xl text-white max-w-[700px] font-bold">

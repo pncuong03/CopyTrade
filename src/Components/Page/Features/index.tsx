@@ -5,10 +5,11 @@ import PariIcon from "../../Icon/PariIcon";
 import CryptoIcon from "../../Icon/CryptoIcon";
 import MultipleIcon from "../../Icon/MultipleIcon";
 import Arbi from "../../Icon/ArbitrageIcon";
+import NextIcon from "../../Icon/NextIcon";
 
 export const Features = () => {
   return (
-    <section className="max-w-[1920px] p-8 mt-20">
+    <section className="container max-w-[1850px] mx-auto text-center py-[60px] px-4 relative z-[1] mt-20">
       <div className="flex flex-col items-center text-center gap-4 ">
         <h2 className="hanover text-[40px] font-bold leading-[64px]">
           Features
@@ -22,9 +23,9 @@ export const Features = () => {
 
       <div className="xl:grid items-center grid-cols-2 border rounded-3xl mt-10 ">
         <div className="flex">
-          <div className="flex flex-col md:flex-row item-center xl:text-start text-center gap-5 p-10">
+          <div className="flex flex-col md:flex-row item-center xl:text-start text-center gap-5 p-7">
             <div className="w-auto ">
-              <h2 className="hanover text-[32px] font-bold leading-[48px] ">
+              <h2 className="hanover text-[32px] font-bold leading-[48px] py-2">
                 Smart Trading
               </h2>
               <p className="poppins text-lg font-medium leading-[28px] text-[#8E8F98] ">
@@ -33,8 +34,9 @@ export const Features = () => {
                 cryptocurrency trading accounts at once.
               </p>
 
-              <div className="poppins text-lg font-semibold text-primary-100 mt-10">
-                Learn more
+              <div className="flex mt-9 gap-3 items-center justify-center xl:justify-start">
+                <p className="text-lg font-semibold text-primary-100">Learn more</p>
+                <NextIcon />
               </div>
             </div>
             <div className="mt-10 mx-auto">
@@ -42,10 +44,10 @@ export const Features = () => {
             </div>
           </div>
         </div>
-        <div className="flex-1 bg-[#F2F4FB] xl:rounded-tr-3xl ">
+        <div className="flex bg-[#F2F4FB] xl:rounded-tr-3xl">
           <div className="flex flex-col md:flex-row item-center xl:text-start text-center gap-5 p-11 ">
             <div className="w-auto">
-              <h2 className="hanover text-[32px] font-bold leading-[48px] ">
+              <h2 className="hanover text-[32px] font-bold leading-[48px] py-2">
                 Pairs Trading
               </h2>
               <p className="poppins text-lg font-medium leading-[28px] text-[#8E8F98] ">
@@ -54,8 +56,9 @@ export const Features = () => {
                 exchange.
               </p>
 
-              <div className="poppins text-lg font-semibold text-primary-100 mt-10">
-                Learn more
+              <div className="flex mt-9 gap-3 items-center justify-center xl:justify-start">
+                <p className="text-lg font-semibold text-primary-100">Learn more</p>
+                <NextIcon />
               </div>
             </div>
             <div className="mt-10 mx-auto">
@@ -63,10 +66,10 @@ export const Features = () => {
             </div>
           </div>
         </div>
-        <div className="flex-1 bg-[#F2F4FB] ">
+        <div className="flex-1 xl:bg-[#F2F4FB] ">
           <div className="flex flex-col md:flex-row item-center xl:text-start text-center gap-5 p-10">
             <div className="w-auto">
-              <h2 className="hanover text-[32px] font-bold leading-[48px] ">
+              <h2 className="hanover text-[32px] font-bold leading-[48px] py-2">
                 DCA bot
               </h2>
               <p className="poppins text-lg font-medium leading-[28px] text-[#8E8F98] ">
@@ -75,8 +78,9 @@ export const Features = () => {
                 simplifies the process.
               </p>
 
-              <div className="text-lg font-semibold text-primary-100 mt-4">
-                Learn more
+              <div className="flex mt-9 gap-3 items-center justify-center xl:justify-start">
+                <p className="text-lg font-semibold text-primary-100">Learn more</p>
+                <NextIcon />
               </div>
             </div>
             <div className="mt-10 mx-auto">
@@ -85,10 +89,10 @@ export const Features = () => {
           </div>
         </div>
 
-        <div className="flex-1 ">
-          <div className="flex flex-col md:flex-row item-center xl:text-start text-center gap-5 p-10">
+        <div className="flex-1 xl:bg-white bg-[#F2F4FB]">
+          <div className="flex flex-col md:flex-row item-center xl:text-start text-center gap-5 p-9">
             <div className="w-auto">
-              <h2 className="hanover text-[32px] font-bold leading-[48px] ">
+              <h2 className="hanover text-[32px] font-bold leading-[48px] py-2">
                 Crypto Portfolio Tracker
               </h2>
               <p className="poppins text-lg font-medium leading-[28px] text-[#8E8F98] ">
@@ -97,8 +101,9 @@ export const Features = () => {
                 automatically.
               </p>
 
-              <div className="text-lg font-semibold text-primary-100 mt-4">
-                Learn more
+              <div className="flex mt-9 gap-3 items-center justify-center xl:justify-start">
+                <p className="text-lg font-semibold text-primary-100">Learn more</p>
+                <NextIcon />
               </div>
             </div>
             <div className="mt-10 mx-auto">
@@ -110,7 +115,7 @@ export const Features = () => {
         <div className="flex-1   xl:rounded-br-3xl ">
           <div className="flex flex-col md:flex-row item-center xl:text-start text-center gap-5 p-10">
             <div className="w-auto">
-              <h2 className="hanover text-[32px] font-bold leading-[48px] ">
+              <h2 className="hanover text-[32px] font-bold leading-[48px] py-2">
                 Multiple Account Management
               </h2>
               <p className="poppins text-lg font-medium leading-[28px] text-[#8E8F98] ">
@@ -119,8 +124,9 @@ export const Features = () => {
                 automatically with bots.
               </p>
 
-              <div className="text-lg font-semibold text-primary-100 mt-4">
-                Learn more
+              <div className="flex mt-9 gap-3 items-center justify-center xl:justify-start">
+                <p className="text-lg font-semibold text-primary-100">Learn more</p>
+                <NextIcon />
               </div>
             </div>
             <div className="mt-10 mx-auto">
@@ -129,9 +135,9 @@ export const Features = () => {
           </div>
         </div>
         <div className="flex-1 bg-[#F2F4FB]  xl:rounded-br-3xl ">
-          <div className="flex flex-col md:flex-row item-center xl:text-start text-center gap-5 p-11">
+          <div className="flex flex-col md:flex-row item-center xl:text-start text-center gap-5 p-12">
             <div className="w-auto">
-              <h2 className="hanover text-[32px] font-bold leading-[48px] ">
+              <h2 className="hanover text-[32px] font-bold leading-[48px] py-2">
                 Arbitrage Trading
               </h2>
               <p className="poppins text-lg font-medium leading-[28px] text-[#8E8F98] ">
@@ -140,8 +146,9 @@ export const Features = () => {
                 trades that instantly outperform the market.
               </p>
 
-              <div className="text-lg font-semibold text-primary-100 mt-4">
-                Learn more
+              <div className="flex mt-9 gap-3 items-center justify-center xl:justify-start">
+                <p className="text-lg font-semibold text-primary-100">Learn more</p>
+                <NextIcon />
               </div>
             </div>
             <div className="mt-10 mx-auto">
@@ -149,6 +156,7 @@ export const Features = () => {
             </div>
           </div>
         </div>
+        
       </div>
     </section>
   );

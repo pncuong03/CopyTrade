@@ -9,8 +9,8 @@ export const Header = () => {
   };
 
   return (
-    <body className="">
-      <nav className="relative px-4 py-5 flex justify-between items-center bg-white">
+    <section className="">
+      <nav className=" flex justify-between items-center bg-white container max-w-[1816px] mx-auto text-center py-[20px] px-4 relative z-[1]">
         <div className="flex">
           <a className="text-3xl font-bold leading-none" href="#">
             Logo
@@ -116,6 +116,6 @@ export const Header = () => {
           </div>
         </nav>
       </div>
-    </body>
+    </section>
   );
 };
