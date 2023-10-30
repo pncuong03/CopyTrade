@@ -2,9 +2,7 @@ import React from "react";
 
 export const Buy = () => {
   return (
-    //h-auto mt-20 p-14 flex flex-col items-center justify-center gap-10 lg:flex-row lg:items-start 
-    //container max-w-[1816px] mx-auto text-center py-[60px] px-4 relative z-[1]
-    <section className=" container max-w-[1816px] mx-auto text-center py-[60px] px-4 relative z-[1] flex flex-col items-center justify-center gap-10 lg:flex-row lg:items-start mt-20">
+    <section className=" container max-w-[1816px] mx-auto text-center py-[60px] px-4  relative z-[1] flex flex-col items-center justify-between gap-10 lg:flex-row lg:items-start mt-20">
       <div className="xl:w-1/2 h-auto rounded-[40px] bg-bgvisa bg-cover bg-no-repeat px-4  sm:p-14 py-10">
         <div className="flex flex-col text-center gap-8 ">
           <div className="flex justify-center">

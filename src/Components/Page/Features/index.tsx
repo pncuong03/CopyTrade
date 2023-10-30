@@ -22,8 +22,8 @@ export const Features = () => {
       </div>
 
       <div className="xl:grid items-center grid-cols-2 border rounded-3xl mt-10 ">
-        <div className="flex">
-          <div className="flex flex-col md:flex-row item-center xl:text-start text-center gap-5 p-7">
+        <div className="flex ">
+          <div className="flex flex-col md:flex-row item-center xl:text-start text-center gap-5 p-11">
             <div className="w-auto ">
               <h2 className="hanover text-[32px] font-bold leading-[48px] py-2">
                 Smart Trading
@@ -39,11 +39,12 @@ export const Features = () => {
                 <NextIcon />
               </div>
             </div>
-            <div className="mt-10 mx-auto">
-              <DCAIcon/>
+            <div className="mt-10 mx-auto w-[50%]">
+              <img src="/Smart.png" alt="" />
             </div>
           </div>
         </div>
+       
         <div className="flex bg-[#F2F4FB] xl:rounded-tr-3xl">
           <div className="flex flex-col md:flex-row item-center xl:text-start text-center gap-5 p-11 ">
             <div className="w-auto">
@@ -61,13 +62,13 @@ export const Features = () => {
                 <NextIcon />
               </div>
             </div>
-            <div className="mt-10 mx-auto">
-              <PariIcon/>
+            <div className="mt-10 mx-auto w-[50%]">
+            <img src="/Pairs.png" alt="" />
             </div>
           </div>
         </div>
-        <div className="flex-1 xl:bg-[#F2F4FB] ">
-          <div className="flex flex-col md:flex-row item-center xl:text-start text-center gap-5 p-10">
+        <div className="flex xl:bg-[#F2F4FB] ">
+          <div className="flex flex-col md:flex-row item-center xl:text-start text-center gap-5 p-11">
             <div className="w-auto">
               <h2 className="hanover text-[32px] font-bold leading-[48px] py-2">
                 DCA bot
@@ -83,14 +84,14 @@ export const Features = () => {
                 <NextIcon />
               </div>
             </div>
-            <div className="mt-10 mx-auto">
-              <SmartIcon />
+            <div className="mt-10 mx-auto w-[50%]">
+            <img src="/DCA.png" alt="" />
             </div>
           </div>
         </div>
 
-        <div className="flex-1 xl:bg-white bg-[#F2F4FB]">
-          <div className="flex flex-col md:flex-row item-center xl:text-start text-center gap-5 p-9">
+        <div className="flex xl:bg-white bg-[#F2F4FB]">
+          <div className="flex flex-col md:flex-row item-center xl:text-start text-center gap-5 p-11">
             <div className="w-auto">
               <h2 className="hanover text-[32px] font-bold leading-[48px] py-2">
                 Crypto Portfolio Tracker
@@ -106,14 +107,14 @@ export const Features = () => {
                 <NextIcon />
               </div>
             </div>
-            <div className="mt-10 mx-auto">
-              <CryptoIcon/>
+            <div className="mt-10 mx-auto w-[50%]">
+            <img src="/Crypto-1.png" alt="" />
             </div>
           </div>
         </div>
 
-        <div className="flex-1   xl:rounded-br-3xl ">
-          <div className="flex flex-col md:flex-row item-center xl:text-start text-center gap-5 p-10">
+        <div className="flex   xl:rounded-br-3xl ">
+          <div className="flex flex-col md:flex-row item-center xl:text-start text-center gap-5 p-11">
             <div className="w-auto">
               <h2 className="hanover text-[32px] font-bold leading-[48px] py-2">
                 Multiple Account Management
@@ -129,14 +130,14 @@ export const Features = () => {
                 <NextIcon />
               </div>
             </div>
-            <div className="mt-10 mx-auto">
-              <MultipleIcon/>
+            <div className="mt-10 mx-auto w-[50%]">
+            <img src="/Multiple.png" alt="" />
             </div>
           </div>
         </div>
-        <div className="flex-1 bg-[#F2F4FB]  xl:rounded-br-3xl ">
-          <div className="flex flex-col md:flex-row item-center xl:text-start text-center gap-5 p-12">
-            <div className="w-auto">
+        <div className="flex bg-[#F2F4FB]  xl:rounded-br-3xl ">
+          <div className="flex flex-col md:flex-row item-center xl:text-start text-center gap-5 p-20">
+            <div className="w-auto ">
               <h2 className="hanover text-[32px] font-bold leading-[48px] py-2">
                 Arbitrage Trading
               </h2>
@@ -151,8 +152,8 @@ export const Features = () => {
                 <NextIcon />
               </div>
             </div>
-            <div className="mt-10 mx-auto">
-              <Arbi/>
+            <div className="mt-10 mx-auto w-[50%]">
+            <img src="/Arbitrage.png" alt="" />
             </div>
           </div>
         </div>

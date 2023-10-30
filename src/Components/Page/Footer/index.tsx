@@ -7,14 +7,12 @@ import Twitter from "../../Icon/Tweter";
 
 const Footer = () => {
   return (
-    <div className="container mx-auto p-10  lato">
-      <div className="h-auto  mt-9 flex flex-col items-center justify-between md:flex-row md:items-start gap-8">
+    <div className="container max-w-[1600px] mx-auto p-10">
+      <div className="h-auto  mt-9 flex flex-col items-center justify-between md:flex-row md:items-start gap-10">
         <div className="flex flex-col gap-3 md:items-start items-center">
-          <div className="text-[30px] font-bold">LOGO</div>
-          <div className="max-w-[544px] text-center md:text-start">
-            Lorem ipsum dolor sit amet consectetur. Proin facilisi sed nulla
-            aliquam id nisl. Integer sollicitudin ipsum nisi tortor nulla in
-            fringilla lectus.{" "}
+          <div className="text-[30px] font-bold text-neutral-400 hanover">COPYTRADING</div>
+          <div className="max-w-[544px] text-center md:text-start font-medium poppins">
+          The only trading tool you will need.
           </div>
           <div className="flex gap-6 pt-3">
             <Youtube />
@@ -25,27 +23,27 @@ const Footer = () => {
             <ins />
           </div>
         </div>
-        <div className="flex items-center justify-center xl:flex-row xl:items-start gap-5 xl:gap-14 text-black text-[20px]">
-          <div className="flex flex-col gap-3 sm:w-1/2 xl:w-1/3">
-            <p className="text-[#72728F] text-[16px]">Lorem ipsum</p>
-            <p>Lorem ipsum</p>
-            <p>Lorem ipsum</p>
-            <p>Lorem ipsum</p>
-            <p>Lorem ipsum</p>
+        <div className="flex justify-center xl:flex-row xl:items-start gap-5 xl:gap-20 text-black text-[20px] poppins">
+          <div className="flex flex-col gap-3 sm:w-1/2 xl:w-1/2">
+            <p className="text-[#72728F] text-[14px] font-bold">Buy crypto</p>
+           
           </div>
-          <div className="flex flex-col gap-3 sm:w-1/2 xl:w-1/3">
-            <p className="text-[#72728F] text-[16px]">Lorem ipsum</p>
-            <p>Lorem ipsum</p>
-            <p>Lorem ipsum</p>
-            <p>Lorem ipsum</p>
-            <p>Lorem ipsum</p>
+          <div className="flex flex-col gap-3 sm:w-1/2 xl:w-3/4 text-neutral-400 text-[16px] font-medium poppins">
+            <p className="text-[#72728F] text-[14px] font-bold">Features</p>
+            <p>Smart Trading</p>
+            <p>Pair Trading</p>
+            <p>DCA Bot</p>
+            <p>Crypto Portfolio Tracker</p>
+            <p>Multiple Account Management</p>
+            <p>Arbitrage Trading</p>
           </div>
-          <div className="flex flex-col gap-3 sm:w-1/2 xl:w-1/3">
-            <p className="text-[#72728F] text-[16px]">Lorem ipsum</p>
-            <p>Lorem ipsum</p>
-            <p>Lorem ipsum</p>
-            <p>Lorem ipsum</p>
-            <p>Lorem ipsum</p>
+          <div className="flex flex-col gap-3 sm:w-1/2 xl:w-1/4">
+            <p className="text-[#72728F] text-[14px] font-bold">Blog</p>
+            
+          </div>
+          <div className="flex flex-col gap-3 sm:w-1/2 xl:w-1/4">
+            <p className="text-[#72728F] text-[14px] font-bold">Contact</p>
+          
           </div>
         </div>
       </div>
