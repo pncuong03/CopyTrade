@@ -1,12 +1,15 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
+import { CommingSoon } from "../Commingsoon";
 
 export const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [open, setOpen] = useState<boolean>(false);
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
+
 
   return (
     <section className="poppins">
@@ -40,12 +43,25 @@ export const Header = () => {
             </svg>
           </button>
         </div>
+        {/* <div>
         <a
           className="hidden lg:inline-block py-3 px-9 rounded-3xl bg-[#456BF1] text-base text-white font-semibold transition duration-200"
-          href="#"
+          onClick={() => setOpenModal(true)} 
         >
           Get started
         </a>
+        {showCommingSoon && <CommingSoon />}
+        </div> */}
+         <div>
+      <button 
+      onClick={() => setOpen(true)} 
+      className="hidden lg:inline-block py-3 px-9 rounded-3xl bg-[#456BF1] text-base text-white font-semibold transition duration-200">
+        Get started
+      </button>
+      <CommingSoon 
+      open={open} 
+      onClose={() => setOpen(false)} />
+      </div>
       </nav>
       <div className={`navbar-menu relative z-50 ${menuOpen ? "" : "hidden"}`}>
         <div

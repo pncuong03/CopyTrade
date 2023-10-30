@@ -18,8 +18,8 @@ const Home = () => {
             using the user-friendly advance terminal.
           </div>
           <div className="pt-2">
-            <button className="bg-blue-500 w-[200px] h-[50px] rounded-3xl poppins text-white">
-              Get started
+          <button className="bg-primary-100 w-[200px] h-[50px] rounded-3xl poppins text-neutral-100 text-base font-semibold">
+                Get Started
             </button>
           </div>
         </div>

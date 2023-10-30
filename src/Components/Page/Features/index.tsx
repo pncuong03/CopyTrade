@@ -1,10 +1,4 @@
 import React from "react";
-import { SmartIcon } from "../../Icon/SmartIcon";
-import DCAIcon from "../../Icon/DCAIcon";
-import PariIcon from "../../Icon/PariIcon";
-import CryptoIcon from "../../Icon/CryptoIcon";
-import MultipleIcon from "../../Icon/MultipleIcon";
-import Arbi from "../../Icon/ArbitrageIcon";
 import NextIcon from "../../Icon/NextIcon";
 
 export const Features = () => {

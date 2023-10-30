@@ -24,9 +24,7 @@ function App() {
       <Features />   
       <Buy/>
       <Partner />
-
-        <Winwin />
-    
+      <Winwin />
       <Footer />
     </div>
   );

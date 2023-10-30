@@ -17,9 +17,9 @@ const Crypto = () => {
                 construct and tweak crypto bots with our user-friendly automated
                 crypto trading software.
               </p>
-              <button className="bg-[#456BF1] text-white poppins w-[200px] h-[40px] rounded-3xl">
+              <button className="bg-primary-100 w-[200px] h-[50px] rounded-3xl poppins text-neutral-100 text-base font-semibold">
                 Learn more
-              </button>
+            </button>
             </div>
             <div className="">
               <img src="Crypto.png" alt="" />
@@ -34,9 +34,9 @@ const Crypto = () => {
               <p className=" poppins">
               Using our cryptocurrency trading bots, you may automate your cryptocurrency approach. Send the signal to our webhook, and we'll execute and monitor the deal. WunderTrading also offers a convenient solution for transforming TradingView scripts into effective automated cryptocurrency trading bots. You can rapidly construct and tweak crypto bots with our user-friendly automated crypto trading software.
               </p>
-              <button className="bg-white text-[#456BF1] poppins w-[200px] h-[40px] rounded-3xl">
+              <button className="bg-neutral-100 w-[200px] h-[50px] rounded-3xl poppins text-primary-100 text-base font-semibold">
                 Learn more
-              </button>
+            </button>
             </div>
           </div>
         </div>
@@ -50,9 +50,9 @@ const Crypto = () => {
               <p className=" poppins">
               Using our cryptocurrency trading bots, you may automate your cryptocurrency approach. Send the signal to our webhook, and we'll execute and monitor the deal. WunderTrading also offers a convenient solution for transforming TradingView scripts into effective automated cryptocurrency trading bots. You can rapidly construct and tweak crypto bots with our user-friendly automated crypto trading software.
               </p>
-              <button className="bg-white text-[#456BF1] poppins w-[200px] h-[40px] rounded-3xl">
+              <button className="bg-neutral-100 w-[200px] h-[50px] rounded-3xl poppins text-primary-100 text-base font-semibold">
                 Learn more
-              </button>
+            </button>
             </div>
           </div>
           <div className="bg-[#F2F4FB] flex flex-col justify-center items-center gap-16 p-10 sm:p-5 rounded-[50px]">
@@ -67,9 +67,9 @@ const Crypto = () => {
                 construct and tweak crypto bots with our user-friendly automated
                 crypto trading software.
               </p>
-              <button className="bg-[#456BF1] text-white poppins w-[200px] h-[40px] rounded-3xl">
+              <button className="bg-primary-100 w-[200px] h-[50px] rounded-3xl poppins text-neutral-100 text-base font-semibold">
                 Learn more
-              </button>
+            </button>
             </div>
             <div>
               <img src="Crypto.png" alt="" className=""/>
